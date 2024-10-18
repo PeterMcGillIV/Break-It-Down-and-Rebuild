@@ -20,7 +20,7 @@ class Crane:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-
+"""This should go with arrive"""
     def arrive(self):
         self.x += 5
 
@@ -218,6 +218,7 @@ def draw_window(win, floor, crane, pile, wreckingball, claw, bricks, phase, bloc
     floor.draw(win)
     pygame.display.update()
 
+"""This should go with main"""
 def main():
     crane = Crane(-600,0)
     floor = Floor(570)
