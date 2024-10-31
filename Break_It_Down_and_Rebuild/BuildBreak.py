@@ -69,7 +69,7 @@ class WreckingBall:
             return True
         else:
             return False
-    
+
     def move(self):
         if self.vertical == False:
             self.x += self.xspeed
@@ -219,6 +219,7 @@ def draw_window(win, floor, crane, pile, wreckingball, claw, bricks, phase, bloc
     pygame.display.update()
 
 """This should go with main"""
+@Ayy lmao
 def main():
     crane = Crane(-600,0)
     floor = Floor(570)
